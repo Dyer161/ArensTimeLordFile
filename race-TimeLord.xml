@@ -3,7 +3,7 @@
 	<info>
 		<name>Time Lord</name>
 		<description>Time Lord Race</description>
-	    	<update version="0.3">
+	    	<update version="0.4">
 	     		<file name="race-TimeLord.xml" url="https://raw.githubusercontent.com/Dyer161/ArensTimeLordFile/main/race-TimeLord.xml" />
 	    	</update>
 	</info>
@@ -57,7 +57,7 @@
 			<grant type="Racial Trait" id="ID_AREN_RACIAL_TRAIT_TIMELORD_REGENERATION" />
 			<grant type="Racial Trait" id="ID_AREN_RACIAL_TRAIT_WELL_TRAVELLED" />
 			<grant type="Racial Trait" id="ID_AREN_RACIAL_TRAIT_TIMELORD_BINARY" />
-
+			<grant type="Racial Trait" id="ID_AREN_RACIAL_TRAIT_TIMELORD_PHYSIOLOGY" />
 		</rules>
 	</element>
 	
@@ -69,6 +69,20 @@
 			As a result of having two hearts, when you roll for death saving throws, you may reroll 1's.
 			</description>
 			<p class ="indent">As a result of having two hearts, when you roll for death saving throws, you may reroll 1's.
+		</p>
+		</sheet>
+		<rules>
+		</rules>
+	</element>
+
+	<element name="Foreign Physiology" type="Racial Trait" source="Aren's Time Lord File :)" id="ID_AREN_RACIAL_TRAIT_TIMELORD_PHYSIOLOGY">
+		<description><p></p>Because of your highly alien biology, you may take different effects from certain potions and medicines. Whenever you consume a healing potion that you have never consumed before, roll 1d8. On a 1, you take a number of damage equal to the amount you would have normally healed of. This trait does not take effect with spells and only happens the first time you drink it. 
+					</description>
+		<sheet display="true">
+			<description>
+			Because of your highly alien biology, you may take different effects from certain potions and medicines. Whenever you consume a healing potion that you have never consumed before, roll 1d8. On a 1, you take a number of damage equal to the amount you would have normally healed of. This trait does not take effect with spells and only happens the first time you drink it. 
+			</description>
+			<p class ="indent">Because of your highly alien biology, you may take different effects from certain potions and medicines. Whenever you consume a healing potion that you have never consumed before, roll 1d8. On a 1, you take a number of damage equal to the amount you would have normally healed of. This trait does not take effect with spells and only happens the first time you drink it. 
 		</p>
 		</sheet>
 		<rules>

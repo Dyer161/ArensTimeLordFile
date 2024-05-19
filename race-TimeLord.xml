@@ -3,7 +3,7 @@
 	<info>
 		<name>Time Lord</name>
 		<description>Time Lord Race</description>
-	    	<update version="0.2">
+	    	<update version="0.3">
 	     		<file name="race-TimeLord.xml" url="https://raw.githubusercontent.com/Dyer161/ArensTimeLordFile/main/race-TimeLord.xml" />
 	    	</update>
 	</info>
@@ -56,9 +56,25 @@
 			<grant type="Language" id="ID_AREN_LANGUAGE_GALLIFREYAN" />
 			<grant type="Racial Trait" id="ID_AREN_RACIAL_TRAIT_TIMELORD_REGENERATION" />
 			<grant type="Racial Trait" id="ID_AREN_RACIAL_TRAIT_WELL_TRAVELLED" />
+			<grant type="Racial Trait" id="ID_AREN_RACIAL_TRAIT_TIMELORD_BINARY" />
+
 		</rules>
 	</element>
 	
+	<element name="Binary Vascular System" type="Racial Trait" source="Aren's Time Lord File :)" id="ID_AREN_RACIAL_TRAIT_TIMELORD_BINARY">
+		<description><p>As a result of having two hearts, when you roll for death saving throws, you may reroll 1's.</p>
+					</description>
+		<sheet display="true">
+			<description>
+			As a result of having two hearts, when you roll for death saving throws, you may reroll 1's.
+			</description>
+			<p class ="indent">As a result of having two hearts, when you roll for death saving throws, you may reroll 1's.
+		</p>
+		</sheet>
+		<rules>
+		</rules>
+	</element>
+
 	<element name="Regeneration" type="Racial Trait" source="Aren's Time Lord File :)" id="ID_AREN_RACIAL_TRAIT_TIMELORD_REGENERATION">
 		<description>
 			<p>When you reach 0 hit points, instead of making death saving throws, you may instead choose to regenerate. When you decide to regenerate, two lines of radiant energy originating from you extend to 10 feet in any direction of your choice, along with a third beam, which shoots directly upward for 10 feet. Any creatures touching these beams make a DC 16 Dexterity saving throw, taking 2d12 radiant damage on a failed save or half as much on a successful one. The regeneration process lasts for one round, during which if you take damage, you must make a Constitution saving throw with a DC of 5 plus the amount of damage taken; on a failed save, you are automatically killed. After regenerating, the beams of light disappear and you are restored to full health with a new body.</p>

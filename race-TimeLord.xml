@@ -3,7 +3,7 @@
 	<info>
 		<name>Time Lord</name>
 		<description>Time Lord Race</description>
-	    	<update version="0.1">
+	    	<update version="0.2">
 	     		<file name="race-TimeLord.xml" url="https://raw.githubusercontent.com/Dyer161/ArensTimeLordFile/main/race-TimeLord.xml" />
 	    	</update>
 	</info>
@@ -56,41 +56,6 @@
 			<grant type="Language" id="ID_AREN_LANGUAGE_GALLIFREYAN" />
 			<grant type="Racial Trait" id="ID_AREN_RACIAL_TRAIT_TIMELORD_REGENERATION" />
 			<grant type="Racial Trait" id="ID_AREN_RACIAL_TRAIT_WELL_TRAVELLED" />
-			
-			<select name="Personality Trait" type="List" number="2">
-				<item id="1">I love to wear the fanciest clothes I can find.</item>
-				<item id="2">I respond to perilous situations with excessive humor.</item>
-				<item id="3">I have an aversion to showing affection for others.</item>
-				<item id="4">I collect curious objects from the places I've visited.</item>
-				<item id="5">I switch my interests from time to time, always trying to learn new things.</item>
-				<item id="6">I quite like my current body and personality.</item>
-				<item id="7">I feel I should be well-known for my accomplishments, and am startled when people have never heard of me.</item>
-				<item id="8">I am very embarrassed whenever I am wrong about anything.</item>
-			</select>
-			<select name="Ideal" type="List">
-				<item id="1">Adventurousness. I want to see the universe, away from the confines of my own species. (Chaotic)</item>
-				<item id="2">Superority. I am on of the most powerful beings in any plane of existence, and I deserve to rule over all other peoples and races. (Evil)</item>
-				<item id="3">Duty. It is my duty as one of the universe's most advanced cultures to police time and space, preventing less adequate creatures from tampering with natural law. (Lawful)</item>
-				<item id="4">Charity. We Time Lords are such a technologically advanced species; we should use our advantages to help the cosmos. (Good)</item>
-				<item id="5">Community. I must do my part in Time Lord society to ensure that our culture and laws remain intact. (Lawful)</item>
-				<item id="6">Absence. Our race is too powerful to do anything but dictate others, and as such we should interfere as little as possible in the affairs of other cultures. (Neutral)</item>
-			</select>
-			<select name="Bond" type="List">
-				<item id="1">I was exiled to this backwater planet by a corrupt Time Lord authority, and I hope to return to Gallifrey so that I may deal justice to him/her.</item>
-				<item id="2">My family is imprisoned in a Dalek concentration camp. Soon I will have the power to free them and destroy the Daleks.</item>
-				<item id="3">There is one in my party whom I feel to be my greatest companion. I wish I could adventure with him/her for the rest of my life, but he/she will die so quickly.</item>
-				<item id="4">I owe my life to another Time Lord, who showed me the vastness and wonder of the universe. I hope that I can see him/her one last time, just so I can say thank you.</item>
-				<item id="5">There was a(n) [insert race name here], one of my greatest friends, who died in my arms. It is my unwavering goal to strive for the changes he/she so desperately wanted to see in the universe.</item>
-				<item id="6">My ancestors did so much for Gallifrey, and I work hard to live up to their standards.</item>
-			</select>
-			<select name="Flaw" type="List">
-				<item id="1">I will frequently speak using long, convoluted scientific terminology, typically only understandable by other Time Lords, making me difficult to relate with other people.</item>
-				<item id="2">I like to make my self seem as brilliant as possible, and I dislike sharing the spotlight.</item>
-				<item id="3">I see regeneration as my dying and a new person being born, and I would almost rather die than regenerate.</item>
-				<item id="4">I hate the Daleks, the archenemies of the Time Lords, and sometimes my obsession with destroying them distances me from or even scares others.</item>
-				<item id="5">I secretly feel like everyone else is much less smarter than me, and my arrogance results in severe distaste for other people.</item>
-				<item id="6">I find it hard to make friends with people of other races, as they always seem to die in mere moments for me.</item>
-			</select>
 		</rules>
 	</element>
 	
@@ -100,8 +65,7 @@
 		</description>
 		<sheet display="true">
 			<description>When you reach 0 hit points, instead of making death saving throws, you may instead choose to regenerate. When you decide to regenerate, two lines of radiant energy originating from you extend to 10 feet in any direction of your choice, along with a third beam, which shoots directly upward for 10 feet. Any creatures touching these beams make a DC 16 Dexterity saving throw, taking 2d12 radiant damage on a failed save or half as much on a successful one. The regeneration process lasts for one round, during which if you take damage, you must make a Constitution saving throw with a DC of 5 plus the amount of damage taken; on a failed save, you are automatically killed. After regenerating, the beams of light disappear and you are restored to full health with a new body. In order to create your new body, take the following steps:</description>
-			<p class ="indent">
-				1. Re-roll for your height and weight.
+			<p class ="indent">1. Re-roll for your height and weight.
 				<p>2. Re-roll for a new personality trait (this must be different from your last three bodies).</p>
 				<p>3. Roll 1d4 (1=if your Charisma score is greater than 1, decrease your Charisma score by 1, otherwise, do nothing; 2-3=do not change your Charisma score; 4=if your Charisma score is less than 20, increase your Charisma score by 1, otherwise, do nothing).</p>
 				<p>4. Describe your new appearance, including selecting a gender, eye color, skin color, and hair color (at least one of these must be different from your previous body). Note that no two bodies can be identical; there must be some noticeable differences between your new body and all of your other ones.</p>
@@ -128,7 +92,7 @@
     </rules>
   </element>
 	
-	<element name="Time Lord" type="Language" source="Aren's Time Lord File :)" id="ID_AREN_LANGUAGE_GALLIFREYAN">
+	<element name="Gallifreyan" type="Language" source="Aren's Time Lord File :)" id="ID_AREN_LANGUAGE_GALLIFREYAN">
 		<description>
 			<p>The language of the Gallifreyan race.</p>
 		</description>
